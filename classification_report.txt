@@ -1,0 +1,10 @@
+Classification Report
+
+              precision    recall  f1-score   support
+
+  Background       0.98      0.95      0.97  19360442
+    Bleeding       0.76      0.89      0.82   3183942
+
+    accuracy                           0.95  22544384
+   macro avg       0.87      0.92      0.89  22544384
+weighted avg       0.95      0.95      0.95  22544384
