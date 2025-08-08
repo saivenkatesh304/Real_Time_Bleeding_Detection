@@ -14,3 +14,12 @@ This project implements an **AI-based alert system** designed to detect **intrao
 - **Model:** UNet with ResNet34 encoder
 - **Dataset:** Surgical video frames (640x640) with bleeding masks
 - **Tools:** Roboflow (annotation), OpenCV, Matplotlib, Pandas
+
+- ## Workflow
+**Dataset Preparation** – Extract frames from surgical videos, annotate bleeding regions, and split into train/validation/test sets.
+**Model Training** – Train UNet with ResNet34 encoder on the prepared dataset.
+**Evaluation** – Assess model performance using quantitative metrics and visual results.
+**Deployment** – Implement real-time inference for surgical use cases.
+
+
+- **For detailson dataset contact saiv14076@gmail.com**
